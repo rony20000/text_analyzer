@@ -1,0 +1,23 @@
+.result .loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.result .wrapper {
+  margin: 100px 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+}
+
+.result .wrapper h2 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .result .wrapper {
+    flex-direction: column;
+  }
+}

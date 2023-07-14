@@ -1,0 +1,11 @@
+.upload {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.upload label {
+  min-width: 463px;
+  max-width: 579px;
+  background-color: #fff;
+}
